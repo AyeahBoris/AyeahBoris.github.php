@@ -10,7 +10,7 @@
               <p><h1 ><center> Friend book </center></h1></p>
         </div>
      <br/>
-       <form action="friendsbook.php" method="post">
+       <form action="index.php" method="post">
         Name : <input type="text" name="myname">
        <input type="submit" value="add new friend">
        </form>
@@ -59,7 +59,7 @@
         fclose($file);
   
     ?>
-    <form action="friendsbook.php" method="post">
+    <form action="index.php" method="post">
         <input type="text" name="namefilter"> 
         <input type="submit" value="Filter list"><br>
         <input type="checkbox" name="startingWith"> Only names starting with  
